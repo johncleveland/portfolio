@@ -16,7 +16,7 @@ cp -fR img/ deploy/img/
 git checkout gh-pages
 cp -fR deploy/ .
 
-#rm -rf deploy/
+rm -rf deploy/
 git add .
 git commit -m "deploy"
 git push origin gh-pages
