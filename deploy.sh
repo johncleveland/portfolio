@@ -3,19 +3,19 @@
 # yarn build
 
 # copy build files
-#rm -rf deploy/
-#mkdir -p deploy
-#cp -f index.html deploy/
-#cp -f sw.js deploy/
-#cp -f manifest.json deploy/
-#mkdir -p deploy/dist
+rm -rf deploy/
+mkdir -p deploy
+cp -f index.html deploy/
+cp -f sw.js deploy/
+cp -f manifest.json deploy/
+mkdir -p deploy/dist
 #cp -fR dist/ deploy/dist/
-#cp -fR dist/ deploy/
-#mkdir -p deploy/img
-#cp -fR img/ deploy/img/
+cp -fR dist/ deploy/
+mkdir -p deploy/img
+cp -fR img/ deploy/img/
 
-git checkout gh-pages
-cp -fR deploy/ .
+#git checkout gh-pages
+#cp -fR deploy/ .
 
 #rm -rf deploy/
 #git add .
