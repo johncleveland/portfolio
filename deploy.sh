@@ -11,7 +11,6 @@ cp -f manifest.json deploy/
 mkdir -p deploy/dist
 #cp -fR dist/ deploy/dist/
 cp -fR dist/ deploy/
-cp -fR dist/ deploy/
 mkdir -p deploy/img
 cp -fR img/ deploy/img/
 
