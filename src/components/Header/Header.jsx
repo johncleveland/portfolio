@@ -10,7 +10,7 @@ export default class Header extends Component {
 					<a className={styles.profileLink} href="https://johncleveland.github.io/resume/" target="_blank">John Cleveland</a>
 				</div>
 				<div className={styles.tagline}>
-					CHICKEN
+					RockStar Developer
 				</div>
 			</div>
 		);
