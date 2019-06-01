@@ -22,4 +22,4 @@ git add .
 git commit -m "deploy"
 git push origin gh-pages
 
-#git checkout master
+git checkout master
